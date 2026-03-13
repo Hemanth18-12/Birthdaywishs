@@ -319,3 +319,124 @@ button:hover{
     transition:0.3s;
     font-size:20px;
 }
+@media (max-width:740px){
+
+body{
+overflow-x:hidden;
+}
+
+.photos_page{
+height:auto;
+padding:40px 0;
+background-color:#ffc0cb;
+background-repeat:repeat;
+}
+
+h1{
+font-size:40px;
+top:10px;
+position:relative;
+}
+
+.photos{
+flex-direction:column;
+align-items:center;
+gap:40px;
+}
+
+.b1,.b2,.b3,.b4,.b5,.b6,.b7,.b8,.b9{
+position:relative;
+top:auto;
+left:auto;
+width:85%;
+height:auto;
+border:15px solid white;
+border-bottom:50px solid white;
+}
+
+.b6{
+height:250px;
+}
+
+.b1 img,
+.b2 img,
+.b3 img,
+.b4 img,
+.b5 img,
+.b6 img,
+.b7 img,
+.b8 img,
+.b9 img{
+width:100%;
+height:100%;
+object-fit:cover;
+}
+
+button{
+position:relative;
+top:auto;
+left:auto;
+margin-top:40px;
+width:250px;
+height:55px;
+font-size:18px;
+}
+.butterfly{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+pointer-events:none;
+z-index:10;
+}
+
+.bb0{
+top:120px;
+left:-40px;
+animation:flyA 12s linear infinite;
+}
+
+.bb1{
+top:300px;
+left:-50px;
+animation:flyB 14s linear infinite;
+}
+
+.bb2{
+top:600px;
+left:-40px;
+animation:flyC 16s linear infinite;
+}
+
+.bb3{
+top:900px;
+left:-50px;
+animation:flyD 18s linear infinite;
+}
+
+.bb4{
+top:200px;
+left:-40px;
+animation:flyE 15s linear infinite;
+}
+
+.bb5{
+top:500px;
+left:-40px;
+animation:flyF 17s linear infinite;
+}
+
+.bb6{
+top:750px;
+left:-40px;
+animation:flyG 19s linear infinite;
+}
+
+.bb7{
+top:1050px;
+left:-40px;
+animation:flyI 21s linear infinite;
+}
+
+}
