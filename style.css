@@ -164,3 +164,56 @@ button:hover{
     transition:0.3s;
     font-size:20px;
 }
+@media (max-width:740px){
+
+.name{
+font-size:28px;
+top:12%;
+}
+body{
+overflow-x:hidden;
+}
+
+.landing_page{
+overflow:hidden;
+width:100%;
+}
+
+.date{
+font-size:50px;
+}
+
+h1{
+font-size:38px;
+}
+
+.Me{
+font-size:20px;
+}
+
+button{
+width:260px;
+font-size:16px;
+height:45px;
+}
+
+.bf1{width:45px;top: 17%;left:35%;}
+.bf2{width:35px;top: 17%;left:40%;}
+.bf3{width:50px;top: 17%;left:45%;}
+.bf4{width:35px;top: 17%;left:50%;}
+.bf5{width:40px;top: 17%;left:55%;}
+.bf6{width:30px;top: 17%;left:60%;}
+.bf7{width:45px;top: 17%;left:65%;}
+.bf8{width:35px;top:17%;left:42%;}
+.bf9{width:40px;top:17%;left:48%;}
+
+.love{font-size:30px;top:38%;right:40%;}
+.twolove{font-size:30px;top:38%;left:25%;}
+.threelove{font-size:28px;top:65%;left:20%;}
+.fourlove{font-size:28px;top:65%;right:20%;}
+.fivelove{font-size:28px;top:48%;left:10%;}
+.sixlove{font-size:28px;top:48%;right:10%;}
+.sevenlove{font-size:28px;top:58%;left:15%;}
+.eigthlove{font-size:28px;top:58%;right:15%;}
+
+}
