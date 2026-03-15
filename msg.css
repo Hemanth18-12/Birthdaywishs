@@ -30,14 +30,6 @@ font-size: 17px;
 left: 290px;
 }
 
-.msg2{
-font-family:'Pacifico', cursive;
-color: rgb(220, 100, 120);
-position: absolute;
-top:270px;
-font-size: 17px;
-left: 720px;
-}
 
 .butterfly{
 position:absolute;
@@ -52,8 +44,22 @@ z-index:10;
 .butterfly img{
 position:absolute;
 }
+.s1{
+    position: absolute;
+    top: 120px;
+    left: 790px;
+}
+.s2{
+    position: absolute;
+    top: 240px;
+    left: 920px;
+}
+.s3{
+    position: absolute;
+    top: 280px;
+    left: 1020px;
+}
 
-/* Butterfly Positions */
 
 .bb0{
 top:80px;
@@ -173,15 +179,16 @@ background-color: rgb(255, 255, 255);
 color: rgb(220, 100, 120);
 border: 3px solid rgb(220, 100, 120);
 border-radius: 15px;
-height: 60px;
-width: 200px;
+height: 40px;
+width: 150px;
 position: absolute;
 top: 80vh;
-left: 550px;
+left: 900px;
 }
 button:hover{
 background-color: rgb(219, 208, 210);   
 }
+
 @media (max-width:740px){
 
 html,body{
@@ -221,15 +228,7 @@ text-align:center;
 line-height:1.6;
 }
 
-.msg2{
-top:380px;
-left:35%;
-transform:translateX(-50%);
-width:80%;
-font-size:13px;
-text-align:center;
-line-height:1.6;
-}
+
 button{
 top:98vh;
 left:45%;
