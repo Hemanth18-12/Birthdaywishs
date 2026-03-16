@@ -20,6 +20,11 @@ body{
     margin-bottom:20px;
     position: absolute;
     top:15%;
+    overflow:hidden;
+   white-space:nowrap;
+   border-right:3px solid white;
+    width:0;
+    animation:typing 3s steps(20,end) forwards;
 }
 
 .date{
@@ -52,12 +57,20 @@ z-index:5;
 @keyframes fly7{100%{transform:translate(550px,-250px) rotate(120deg);opacity:0;}}
 @keyframes fly8{100%{transform:translate(-150px,-400px) rotate(-140deg);opacity:0;}}
 @keyframes fly9{100%{transform:translate(150px,-420px) rotate(140deg);opacity:0;}}
-h1{
+.typing{
     font-family:'Pacifico', cursive;
     color:white;
     font-size:60px;
     text-shadow:2px 2px 5px rgba(0,0,0,0.2);
     margin:10px 0;
+    overflow:hidden;
+   white-space:nowrap;
+   border-right:3px solid white;
+    width:0;
+    animation:typing 6s steps(20,end) forwards;
+}
+@keyframes typing{
+to{width:100%;}
 }
 
 .Me{
